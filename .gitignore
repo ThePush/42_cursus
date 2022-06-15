@@ -1,0 +1,13 @@
+*.o
+*.a
+*.swo
+*.swc
+*.swp
+*.swn
+*.out
+*.DS_Store
+*.gch
+*.txt
+*.iso
+*.~lock.notes#
+/cursus_subjects/
