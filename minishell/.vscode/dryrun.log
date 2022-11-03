@@ -1,0 +1,39 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cls/Documents/42/42_cursus/minishell'
+mkdir -p obj
+cc -Wall -Wextra -Werror -g3 -c srcs/builtins_cmd.c -o obj/builtins_cmd.o
+cc -Wall -Wextra -Werror -g3 -c srcs/builtins_core.c -o obj/builtins_core.o
+cc -Wall -Wextra -Werror -g3 -c srcs/builtins_env.c -o obj/builtins_env.o
+cc -Wall -Wextra -Werror -g3 -c srcs/builtins_env_utils.c -o obj/builtins_env_utils.o
+cc -Wall -Wextra -Werror -g3 -c srcs/builtins_utils.c -o obj/builtins_utils.o
+cc -Wall -Wextra -Werror -g3 -c srcs/create_list.c -o obj/create_list.o
+cc -Wall -Wextra -Werror -g3 -c srcs/environment_handler.c -o obj/environment_handler.o
+cc -Wall -Wextra -Werror -g3 -c srcs/errors.c -o obj/errors.o
+cc -Wall -Wextra -Werror -g3 -c srcs/exec_cmd.c -o obj/exec_cmd.o
+cc -Wall -Wextra -Werror -g3 -c srcs/expand_path.c -o obj/expand_path.o
+cc -Wall -Wextra -Werror -g3 -c srcs/expand_vars.c -o obj/expand_vars.o
+cc -Wall -Wextra -Werror -g3 -c srcs/fd_redir_handler.c -o obj/fd_redir_handler.o
+cc -Wall -Wextra -Werror -g3 -c srcs/fork_cmd.c -o obj/fork_cmd.o
+cc -Wall -Wextra -Werror -g3 -c srcs/free_memory.c -o obj/free_memory.o
+cc -Wall -Wextra -Werror -g3 -c srcs/ft_input_split.c -o obj/ft_input_split.o
+cc -Wall -Wextra -Werror -g3 -c srcs/ft_symsplit.c -o obj/ft_symsplit.o
+cc -Wall -Wextra -Werror -g3 -c srcs/here_doc.c -o obj/here_doc.o
+cc -Wall -Wextra -Werror -g3 -c srcs/init_prompt_utils.c -o obj/init_prompt_utils.o
+cc -Wall -Wextra -Werror -g3 -c srcs/main.c -o obj/main.o
+cc -Wall -Wextra -Werror -g3 -c srcs/parsing.c -o obj/parsing.o
+cc -Wall -Wextra -Werror -g3 -c srcs/quotes_trim.c -o obj/quotes_trim.o
+cc -Wall -Wextra -Werror -g3 -c srcs/signal_handler.c -o obj/signal_handler.o
+cc -Wall -Wextra -Werror -g3 -c srcs/fd_redir_handler_utils.c -o obj/fd_redir_handler_utils.o
+make -s ascii
+echo -n "[35m Building libft : (B[m"
+make -sC libft > /dev/null
+echo "[35m[OK](B[m"
+sleep 0.2
+make -s ascii
+make -s norminette
+echo -n "[35m Compiling binary : (B[m"
+cc -Wall -Wextra -Werror -g3 obj/builtins_cmd.o obj/builtins_core.o obj/builtins_env.o obj/builtins_env_utils.o obj/builtins_utils.o obj/create_list.o obj/environment_handler.o obj/errors.o obj/exec_cmd.o obj/expand_path.o obj/expand_vars.o obj/fd_redir_handler.o obj/fork_cmd.o obj/free_memory.o obj/ft_input_split.o obj/ft_symsplit.o obj/here_doc.o obj/init_prompt_utils.o obj/main.o obj/parsing.o obj/quotes_trim.o obj/signal_handler.o obj/fd_redir_handler_utils.o ./libft/libft.a -lreadline -o minishell
+echo "[35m[OK](B[m"
+sleep 0.2
+make: Leaving directory '/home/cls/Documents/42/42_cursus/minishell'
+ 

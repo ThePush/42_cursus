@@ -1,0 +1,632 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 24 17:22:33 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c854ea9b-db5d-425b-92fa-f5eca730ec2c.sock
+# makefile (from 'Makefile', line 40)
+define ascii
+		@echo "$(shell tput setaf 5)"
+		@echo "============================================"
+		printf "*            _       _     _          _ _  *\n"
+		printf "*  _ __ ___ (_)_ __ (_)___| |__   ___| | | *\n"
+		printf "* | '_ \` _ \| | '_ \| / __| '_ \ / _ \ | | *\n"
+		printf "* | | | | | | | | | | \__ \ | | |  __/ | | *\n"
+		printf "* |_| |_| |_|_|_| |_|_|___/_| |_|\___|_|_| *\n"
+		printf "*                        A 42Paris project *\n"
+		@echo "============================================"
+endef
+# environment
+MANDATORY_PATH = /usr/share/gconf/mate.mandatory.path
+# environment
+LC_NAME = fr_FR.UTF-8
+# environment
+LC_NUMERIC = fr_FR.UTF-8
+# environment
+VSCODE_CWD = /home/cls
+# environment
+LESS_TERMCAP_me = [0m
+# environment
+UBUNTU_MENUPROXY = 1
+# environment
+TERMINATOR_UUID = urn:uuid:fbe0008e-e734-4723-8349-841c83baf204
+# environment
+LC_ADDRESS = fr_FR.UTF-8
+# environment
+GDM_LANG = en
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/cls/Documents/42/42_cursus/minishell
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/cls/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/cls/Documents/42/42_workdir
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/cls/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# makefile (from 'Makefile', line 38)
+LIBFT = libft/libft.a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/cls/.Xauthority
+# default
+.LOADED := 
+# environment
+LESS_TERMCAP_md = [1;36m
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+LESS_TERMCAP_so = [01;33m
+# environment
+TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
+# makefile
+CURDIR := /home/cls/Documents/42/42_cursus/minishell
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 4)
+SRCS = builtins_cmd.c builtins_core.c builtins_env.c builtins_env_utils.c builtins_utils.c create_list.c environment_handler.c errors.c exec_cmd.c expand_path.c expand_vars.c fd_redir_handler.c fork_cmd.c free_memory.c ft_input_split.c ft_symsplit.c here_doc.c init_prompt_utils.c main.c parsing.c quotes_trim.c signal_handler.c fd_redir_handler_utils.c 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+LESS_TERMCAP_ue = [0m
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-mate:/etc/xdg
+# makefile (from 'Makefile', line 28)
+SRCS_DIR = srcs
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = mate
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 6899
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 2)
+FLAGS = -Wall -Wextra -Werror -g3
+# environment
+SESSION_MANAGER = local/cls:@/tmp/.ICE-unix/1773,unix/cls:/tmp/.ICE-unix/1773
+# automatic
+*F = $(notdir $*)
+# environment
+IBUS_DISABLE_SNOOPER = 1
+# environment
+QT_QPA_PLATFORMTHEME = gtk2
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 34)
+LIB = ./libft/libft.a
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+QT_SCALE_FACTOR = 1
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 32)
+OBJS = $(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
+# makefile
+SHELL = /bin/sh
+# environment
+LESS_TERMCAP_us = [1;32m
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 0
+# environment
+GCC_COLORS = error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/cls/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+LESS_TERMCAP_se = [0m
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en
+# environment
+LC_MONETARY = fr_FR.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+MATE_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+LC_TIME = fr_FR.UTF-8
+# environment
+LESS_TERMCAP_mb = [1;31m
+# environment
+COMPIZ_CONFIG_PROFILE = mate
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = fr_FR.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 36)
+INC = includes/minishell.h
+# makefile (from 'Makefile', line 1)
+NAME = minishell
+# environment
+XDG_SEAT = seat0
+# environment
+GTK_IM_MODULE = ibus
+# environment
+INSIDE_CAJA_PYTHON = 
+# environment
+XDG_CURRENT_DESKTOP = MATE
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = mate
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = MATE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CLUTTER_IM_MODULE = ibus
+# environment
+LOGNAME = cls
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+USER = cls
+# environment
+GTK_MODULES = appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module
+# environment
+DEFAULTS_PATH = /usr/share/gconf/mate.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+QT_FONT_DPI = 96
+# environment
+LC_MEASUREMENT = fr_FR.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 23726
+# makefile (from 'Makefile', line 30)
+OBJS_DIR = obj
+# environment
+_ = /usr/bin/code
+# environment
+LC_PAPER = fr_FR.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+GTK_OVERLAY_SCROLLING = 0
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/cls
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-62f8edef-1.67.1-main.sock
+# environment
+TERM = xterm-256color
+# environment
+XDG_SESSION_ID = c2
+# environment
+PAPERSIZE = a4
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/cls
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+GDMSESSION = mate
+# environment
+LC_IDENTIFICATION = fr_FR.UTF-8
+# variable set hash-table stats:
+ 
+# Load=144/1024=14%, Rehash=0, Collisions=22/190=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 4719120): 9 files, no impossibilities.
+# srcs (device 66306, inode 5636580): No files, no impossibilities so far.
+
+# 9 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: srcs/%.c
+#  recipe to execute (from 'Makefile', line 67):
+	@cc $(FLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+includes/minishell.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/fd_redir_handler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/expand_vars.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/exec_cmd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+minishell: obj obj/builtins_cmd.o obj/builtins_core.o obj/builtins_env.o obj/builtins_env_utils.o obj/builtins_utils.o obj/create_list.o obj/environment_handler.o obj/errors.o obj/exec_cmd.o obj/expand_path.o obj/expand_vars.o obj/fd_redir_handler.o obj/fork_cmd.o obj/free_memory.o obj/ft_input_split.o obj/ft_symsplit.o obj/here_doc.o obj/init_prompt_utils.o obj/main.o obj/parsing.o obj/quotes_trim.o obj/signal_handler.o obj/fd_redir_handler_utils.o libft/libft.a includes/minishell.h
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  recipe to execute (from 'Makefile', line 59):
+	@make -s ascii
+	@make -s norminette
+	@echo -n "$(shell tput setaf 5) Compiling binary : $(shell tput sgr0)"
+	@cc $(FLAGS) $(OBJS) $(LIB) -lreadline -o $(NAME)
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+
+# Not a target:
+obj/builtins_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/init_prompt_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 22:23:19.40023026
+#  File has been updated.
+#  Successfully updated.
+
+libft/libft.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@make -s ascii
+	@echo -n "$(shell tput setaf 5) Building libft : $(shell tput sgr0)"
+	@make -sC libft > /dev/null
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+
+norminette:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@if norminette $(SRCS) $(INC) ./libft > /dev/null; then\
+        echo "$(shell tput setaf 5) Norminette : [OK]$(shell tput sgr0)";\
+    else\
+        echo "$(shell tput setaf 5) Norminette : $(shell tput setaf 1)[KO]$(shell tput sgr0)";\
+    fi
+	@sleep 0.2
+
+# Not a target:
+obj/environment_handler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/errors.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 88):
+	@make -s ascii
+	@sleep 0.2
+	@echo -n "$(shell tput setaf 5) Deleting project's objects : $(shell tput sgr0)"
+	@rm -rf $(OBJS_DIR)
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+	@echo -n "$(shell tput setaf 5) Deleting libft's objects : $(shell tput sgr0)"
+	@make clean -sC libft > /dev/null
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+
+# Not a target:
+obj/builtins_core.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/12=17%
+#  recipe to execute (from 'Makefile', line 77):
+	@mkdir -p $(OBJS_DIR)
+
+# Not a target:
+obj/free_memory.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/ft_input_split.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/builtins_env.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: minishell
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 100):
+	@echo -n "$(shell tput setaf 5) Deleting binary : $(shell tput sgr0)"
+	@rm -rf $(NAME)
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+	@echo -n "$(shell tput setaf 5) Cleaning libft : $(shell tput sgr0)"
+	@make fclean -sC libft > /dev/null
+	@echo "$(shell tput setaf 5)[OK]$(shell tput sgr0)"
+	@sleep 0.2
+
+# Not a target:
+obj/expand_path.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/here_doc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/fd_redir_handler_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/builtins_env_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/create_list.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/parsing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ascii:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@clear
+	$(call ascii)
+
+# Not a target:
+obj/builtins_cmd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/fork_cmd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/ft_symsplit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/signal_handler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/quotes_trim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=36/1024=4%, Rehash=0, Collisions=3/81=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 48 / storage = 656 B / avg = 13 B
+# current buf: size = 8162 B / used = 656 B / count = 48 / avg = 13 B
+
+# strcache performance: lookups = 70 / hit rate = 31%
+# hash-table stats:
+# Load=48/8192=1%, Rehash=0, Collisions=0/70=0%
+# Finished Make data base on Tue May 24 17:22:33 2022
+
+ 

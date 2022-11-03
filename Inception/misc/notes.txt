@@ -1,0 +1,66 @@
+https://severalnines-com.translate.goog/blog/how-deploy-mariadb-server-docker-container?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=fr
+
+https://www.johnmackenzie.co.uk/posts/using-self-signed-ssl-certificates-with-docker-and-nginx/
+
+https://www.stackscale.com/blog/php-fpm-high-traffic-websites/
+
+https://severalnines.com/blog/how-deploy-mariadb-server-docker-container
+
+https://manpages.org/mysql
+
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+https://docs.docker.com/engine/reference/builder/#entrypoint
+https://www.bmc.com/blogs/docker-cmd-vs-entrypoint/
+
+https://docs.docker.com/engine/reference/commandline/run/
+
+---------------------------------------------------------------------------------------
+DOCKER COMMANDS
+---------------------------------------------------------------------------------------
+
+docker-compose up
+docker-compose build
+docker images
+docker start/stop/restart/kill <container>
+docker logs <container>
+docker rmi <image>
+docker stop $(docker ps -aq); docker rm -v $(docker ps -aq); docker rmi $(docker images -aq); docker volume rm $(docker volume ls -q); docker network rm $(docker network ls -q); docker system prune -a -y; docker images
+
+https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+
+docker exec -it <container> sh
+
+---------------------------------------------------------------------------------------
+MYSQL COMMANDS
+---------------------------------------------------------------------------------------
+
+mysql -u root -p
+SHOW DATABASES;
+SHOW TABLES;
+USE <database>;
+SELECT * FROM <table>;
+SELECT User, Host, Password FROM mysql.user;
+
+Connect to wordpress database to show users:
+mysql -uuser -puser;
+use wordpress;
+show tables;
+select * from wp_users;
+
+---------------------------------------------------------------------------------------
+NGINX COMMANDS
+---------------------------------------------------------------------------------------
+
+nginx -t
+nginx -s reload
+
+---------------------------------------------------------------------------------------
+WORDPRESS COMMANDS
+---------------------------------------------------------------------------------------
+
+docker exec -it wordpress ps aux | grep -i "php"
+docker exec -it wordpress php -v
+docker exec -it wordpress php -m
+docker exec -it wordpress php -i | grep -i "mysql"
+docker exec -it wordpress php -i | grep -i "curl"
