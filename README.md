@@ -57,7 +57,7 @@ Set up an SSH server on a debian VM and get some basic knowledge on partitioning
 --->
 #### [GRAPHICS] [APPLICATIVE] [IMPERATIVE PROGRAMMING]
 
-First graphical project, a small top-down 2D game
+First graphical project, a small top-down 2D game engine in the style of [Bomberman](https://en.wikipedia.org/wiki/Bomberman)
 
 ## [minitalk](https://github.com/ThePush/42_cursus/tree/master/minitalk) 
 <!--- 
@@ -98,7 +98,9 @@ microshell
 
 ## [Cub3d](https://github.com/ThePush/42_cursus/tree/master/Cub3d)
 
-microshell
+#### [GRAPHICS] [IMPERATIVE PROGRAMMING]
+
+[Raycasting](https://en.wikipedia.org/wiki/Ray_casting) project, a simple 3D game engine in the style of [Wolfenstein 3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)
 
 ## [Piscine CPP](https://github.com/ThePush/42_cursus/tree/master/Piscine%20CPP)
 
