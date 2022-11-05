@@ -4,7 +4,7 @@
 
 ## Goal of the project
 
-A classical computer science problem: [Dijkstra's dining philosophers](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
+A classic computer science problem: [Dijkstra's dining philosophers](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 </div>
 
 ## Skills involved

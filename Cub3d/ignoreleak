@@ -1,0 +1,6 @@
+{
+    leak mlx
+    Memcheck:Leak
+    ...
+    fun:*mlx*
+}

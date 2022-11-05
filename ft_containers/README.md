@@ -3,7 +3,7 @@
 
 ## Goal of the project
 
-Implementation of [Standard Template Library containers in C++98](https://cplusplus.com/reference/stl/)
+Implementation of [Standard Template Library containers](https://cplusplus.com/reference/stl/) in C++98
 </div>
 
 ## Containers
