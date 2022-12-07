@@ -47,7 +47,7 @@ Then inside IRSSI, connect to the server:
 * `/msg <target> <message>`: send a private message to a user or a channel
 * `/list`: list all channels
 * `/who <target>`: list users
-* `/whois <nickname> or <channel>`: get information about a user or a channel
+* `/whois <target>`: get information about a user or a channel
 * `/invite <nickname> <channel>`: invite a user to a channel
 * `/motd`: print the message of the day
 * `/notice <target>{,<target>} <text to be sent>`: send a notice to a user or a channel
