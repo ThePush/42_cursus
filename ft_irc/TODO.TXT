@@ -1,6 +1,6 @@
 REGISTRATION:
 [x] CAP  : OK pas géré par le serveur, envoie seulement 421
-[x] PASS : OK mais peut-etre un peu degueulasse, à reprendre avec registerUser
+[x] PASS : OK
 [x] NICK : [x] OK regarder ce qui est legal et faire une fonction checkNickname()
          : [x] OK mettre a jour les nick dans la liste des users des channels
 [x] USER : [x] OK boucler si username fait plusieurs mots
@@ -10,7 +10,7 @@ COMMANDES:
 [x] WHOIS: USER
                 : [x] OK pour l'instant, voir à l'avenir si besoin de plus de réponses
            CHANNEL
-                : [x] OK mais les channels s'affichent 1 par ligne alors qu'elles devraient se mettre sur la même ligne -> a voir mais pour l'instant ca m'a gavé
+                : [x] OK mais les channels s'affichent 1 par ligne alors qu'elles devraient se mettre sur la même ligne
 [x] MODE : USER
                 : [x] OK setter de mode pour user sivo
                 : [x] OK /!\ If a user attempts to make themselves an operator using the "+o" flag, the attempt should be ignored.
@@ -32,7 +32,7 @@ COMMANDES:
          : [x] OK /part #chan1,#chan2,#chan3
 [x] WHO : OK user/channel à voir si on fait les douze mille options (non)
 [x] KICK
-[x] INVITE : [x] OK gérer ERR_USERONCHANNEL -> le nickname n'apparait pas sur la réponse serveur (je sais pas pourquoi)
+[x] INVITE : [x] OK gérer ERR_USERONCHANNEL -> le nickname n'apparait pas sur la réponse serveur
 [x] VOICE/DEVOICE
 [x] OP/DEOP
 [x] OPER
@@ -50,7 +50,7 @@ COMMANDES:
 [x] OK gérer si les commandes arrivent en bordel avec ctrl+D (voir sujet) com^Dman^Dd -> scanner les commandes avec signal?
 
 A FAIRE:
-[x] commandes pipi caca avant register user
+[x] commandes avant register user
 [x] création de channel
 [x] quitter avec ctrl+c
 [x] serveur qui clean pas les fd quand une seule instance de irssi se connecte plusieurs fois au server et quitte avec un seul appel a QUIT: voir POLLERR et POLLHUP
