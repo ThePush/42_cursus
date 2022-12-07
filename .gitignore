@@ -1,3 +1,4 @@
+*.d
 *.o
 *.a
 *.swo
@@ -11,3 +12,4 @@
 *.~lock.notes#
 /cursus_subjects/
 /.vscode/
+/objs/

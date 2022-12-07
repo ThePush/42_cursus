@@ -1,0 +1,88 @@
+REGISTRATION:
+[x] CAP  : OK pas géré par le serveur, envoie seulement 421
+[x] PASS : OK mais peut-etre un peu degueulasse, à reprendre avec registerUser
+[x] NICK : [x] OK regarder ce qui est legal et faire une fonction checkNickname()
+         : [x] OK mettre a jour les nick dans la liste des users des channels
+[x] USER : [x] OK boucler si username fait plusieurs mots
+[x] welcome RPLs : OK 001, 002, 003, 004, 005
+
+COMMANDES:
+[x] WHOIS: USER
+                : [x] OK pour l'instant, voir à l'avenir si besoin de plus de réponses
+           CHANNEL
+                : [x] OK mais les channels s'affichent 1 par ligne alors qu'elles devraient se mettre sur la même ligne -> a voir mais pour l'instant ca m'a gavé
+[x] MODE : USER
+                : [x] OK setter de mode pour user sivo
+                : [x] OK /!\ If a user attempts to make themselves an operator using the "+o" flag, the attempt should be ignored.
+                : [x] OK mode 'o'
+                : [x] OK mode 'i'
+                : [x] OK mode 'w'
+         : CHANNEL
+                : [x] OK mode 'k'
+                : [x] OK mode 'i'
+                : [x] OK tous les modes
+                : [x] OK /mode #chan -> doit afficher dans le channel : "15:39 -!-  mode/#chan [+tCN]"
+[x] JOIN : [x] OK pouvoir join avec un mdp (key)
+         : [x] OK /join #chan1,#chan2,#chan3
+         : [x] OK nombre d'OPERATORs qui ne saffiche pas sur irssi
+[x] TOPIC : [x] OK rajouter un check si user est operator
+[x] PRIVMSG : [x] OK broadcast l'arrivée et le départ d'un utilisateur à tous les autres
+            : [x] OK faire les messages privés entre utilisateurs
+[x] PART : [x] OK (pas fait: n'existe pas sur quakenet) pouvoir part un message privé
+         : [x] OK /part #chan1,#chan2,#chan3
+[x] WHO : OK user/channel à voir si on fait les douze mille options (non)
+[x] KICK
+[x] INVITE : [x] OK gérer ERR_USERONCHANNEL -> le nickname n'apparait pas sur la réponse serveur (je sais pas pourquoi)
+[x] VOICE/DEVOICE
+[x] OP/DEOP
+[x] OPER
+[x] KILL : [x] OK ne pas oublier de remettre ERR_NOPRIVILEGES après les tests
+[x] RESTART
+[x] BAN/UNBAN
+[x] MOTD
+[x] NOTICE
+[x] PING PONG : [ ] gérer /PING <target> dans PRIVMSG
+[x] LIST
+[x] NAMES : OK géré par irssi
+[x] QUIT
+[x] LUSERS
+[x] ERROR
+[x] OK gérer si les commandes arrivent en bordel avec ctrl+D (voir sujet) com^Dman^Dd -> scanner les commandes avec signal?
+
+A FAIRE:
+[x] commandes pipi caca avant register user
+[x] création de channel
+[x] quitter avec ctrl+c
+[x] serveur qui clean pas les fd quand une seule instance de irssi se connecte plusieurs fois au server et quitte avec un seul appel a QUIT: voir POLLERR et POLLHUP
+[x] clean les channels si les users sont déconnectés
+[x] vérifier les throw, exit(), etc.
+[x] mettre les utils dans leurs classes
+[x] split des commandes
+[x] supprimer un user sans tout péter
+[x] si User::std::vector<std::string> _replies ne sert a rien, le supprimer
+
+A FAIRE ???:
+[ ] faire une fonction qui 1/créé une str avec RPL, 2/sendReply(), 3/user.deleteCommand()
+[ ] sortir setMode de User et Channel pour le mettre dans utils
+[ ] créér un namespace
+[ ] TCPserver: changer std::map<int, User*> _users en std::vector<User*> _users
+[ ] User: changer les commandes en std::map<std::string, std::vector<std::string>> _commands
+
+FIN DU PROJET:
+[x] organisation des dossiers et du makefile (remplacer g++ par c++)
+[x] repasser tous les messages d'erreur et vérifier qu'ils correspondent à un vrai serveur (comme quakenet)
+(OPTIONNELS):
+[ ] couleurs dans la fenetre des infos serveur avec des define
+[x] faire un message de bienvenue fun
+[x] faire un MOTD fun
+
+
+/connect localhost 30000 pass nick
+
+# SOURCES
+RFC 2812:         https://www.rfc-editor.org/rfc/rfc2812
+MODERN IRC:       https://modern.ircdocs.horse/
+LISTE COMMANDES : https://en.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
+LISTE COMMANDES : https://www.alien.net.au/irc/chanmodes.html
+
+FONCTIONNEMENT :  https://chi.cs.uchicago.edu/chirc/irc_examples.html

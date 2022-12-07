@@ -12,9 +12,7 @@ Feel free to take and share anything that can be useful to you and your peers
 </p>
 
 ## [Libft](https://github.com/ThePush/42_cursus/tree/master/Libft) 
-<!---	
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/Libft)](https://github.com/JaeSeoKim/badge42) 
---->
+
 #### [UNIX] [IMPERATIVE PROGRAMMING]
 
 Re code some functions from the [libc](https://man7.org/linux/man-pages/man7/libc.7.html) and add useful new ones
@@ -23,18 +21,14 @@ Basic manipulations of [linked lists](https://www.geeksforgeeks.org/linked-list-
 
 
 ## [get_next_line](https://github.com/ThePush/42_cursus/tree/master/get_next_line) 
-<!---	
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/get_next_line)](https://github.com/JaeSeoKim/badge42)
- --->
+
 #### [UNIX]
 
 Takes one or several file descriptor as argument and displays one line of it each time the function is called
 
 
 ## [ft_printf](https://github.com/ThePush/42_cursus/tree/master/ft_printf)	
-<!---
- [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/ft_printf)](https://github.com/JaeSeoKim/badge42)
- --->
+
 #### [UNIX]
 
 A basic version of [```printf()```](https://linux.die.net/man/3/printf)
@@ -43,26 +37,20 @@ A really short implementation with only 5 functions
 
 
 ## [Born2beroot](https://github.com/ThePush/42_cursus/tree/master/Born2beroot)
-<!--- 
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/Born2beroot)](https://github.com/JaeSeoKim/badge42) 
---->
+
 #### [UNIX] [NETWORK] [SYSADMIN] [VIRTUALIZATION]
 
 Set up an SSH server on a debian VM and get some basic knowledge on partitioning and sysadmin
 
 
 ## [so_long](https://github.com/ThePush/42_cursus/tree/master/so_long) 
-<!--- 
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/so_long)](https://github.com/JaeSeoKim/badge42) 
---->
+
 #### [GRAPHICS] [APPLICATIVE] [IMPERATIVE PROGRAMMING]
 
 First graphical project, a small top-down 2D game engine in the style of [Bomberman](https://en.wikipedia.org/wiki/Bomberman)
 
 ## [minitalk](https://github.com/ThePush/42_cursus/tree/master/minitalk) 
-<!--- 
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/minitalk)](https://github.com/JaeSeoKim/badge42) 
---->
+
 #### [UNIX]
 
 A small data exchange program using UNIX signals
@@ -71,9 +59,7 @@ A small data exchange program using UNIX signals
 union/inter/get_next_line/ft_printf
 
 ## [push_swap](https://github.com/ThePush/42_cursus/tree/master/push_swap) 
-<!--- 
-[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/jsemel/push_swap)](https://github.com/JaeSeoKim/badge42) 
---->
+
 #### [ALGORITHMS] [IMPERATIVE PROGRAMMING] [AI]
 
 This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves
@@ -121,3 +107,9 @@ Set up dockers containers with nginx, a wordpress website and a mysql database
 ## [Exam Rank 05](https://github.com/ThePush/42_cursus/tree/master/ExamRank05)
 
 CPP OOP: polymorphism, inheritance, abstract classes
+
+## [ft_irc](https://github.com/ThePush/42_cursus/tree/master/ft_irc)
+
+#### [NETWORK] [OOP]
+
+Creation of an [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) server

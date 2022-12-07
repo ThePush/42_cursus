@@ -353,3 +353,5 @@ void swap(ft::vector<T, Alloc>& lhs, ft::vector<T, Alloc>& rhs) { lhs.swap(rhs);
 } // namespace ft
 
 #endif // VECTOR_HPP
+
+/* https://www.stroustrup.com/except.pdf */
