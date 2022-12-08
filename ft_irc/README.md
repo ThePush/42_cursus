@@ -36,7 +36,7 @@ Then inside IRSSI, connect to the server:
 /connect <ip> <port> <password> <nickname>
 ```
 
-![image](https://user-images.githubusercontent.com/91064070/206378309-6bd4be45-cef3-4f74-a09f-47d80221690f.png)
+![image](https://user-images.githubusercontent.com/91064070/206379114-d5f64b50-b943-46e1-b6e5-759e50af25c2.png)
 
 Fully functional with netcat as well:
 
