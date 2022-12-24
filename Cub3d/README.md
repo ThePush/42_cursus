@@ -3,5 +3,5 @@
 
 ## Goal of the project
 
-[Raycasting](https://en.wikipedia.org/wiki/Ray_casting) project, a simple 3D game engine in the style of [Wolfenstein 3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)
+[Raycasting](https://en.wikipedia.org/wiki/Ray_casting) project, a 3D game engine in the style of [Wolfenstein 3D](https://en.wikipedia.org/wiki/Wolfenstein_3D)
 </div>
