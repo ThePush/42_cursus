@@ -14,7 +14,7 @@ The following containers and their iterators are implemented:
 
 ## Usage
 ```bash
-make && ./ft_containers_tester
+$> make && ./ft_containers_tester
 ```
 
 It will print the usage of the tester:
@@ -42,5 +42,5 @@ EXAMPLES:
 
 We can as well use the subject's main, it will print ft_containers performance compared to std_containers:
 ```bash
-time ./subject_ft 50; time ./subject_std 50
+$> time ./subject_ft 50; time ./subject_std 50
 ```

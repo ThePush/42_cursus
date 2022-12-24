@@ -113,8 +113,9 @@ When in doubt : [RTFM](https://linux.die.net/man/3/)
 The [makefile](https://en.wikipedia.org/wiki/Make_(software)) will compile a [static library](https://en.wikipedia.org/wiki/Static_library) with ```ar rcs```.
 
 ```shell
-# run
-make
-# then compile your project with the libft.a file to use the functions into your own program
-cc <projet.c> libft.a -o <project_name>
+$> make
+```
+Then compile your project with the libft.a file to use the functions into your own program
+```
+$> clang <projet.c> libft.a -o <project_name>
 ```

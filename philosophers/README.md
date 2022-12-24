@@ -52,8 +52,8 @@ Two methods: mutexes ( /philo/ ) or semaphores ( /philo_bonus/ ).
 ## Usage
 
 ```shell
-cd philosophers/philo/ && make
+$> cd philosophers/philo/ && make
 ```
 ```shell
-./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat]
+$> ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat]
 ```

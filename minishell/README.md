@@ -83,9 +83,8 @@ subject such as \ (backslash) or ; (semicolon).
 ![](https://user-images.githubusercontent.com/91064070/165968967-d965d0cd-130f-4cda-9154-c656357d19b5.png)
 ## Usage
 ```shell
-cd minishell/ && make
+$> cd minishell/ && make
 ```
 ```
-# run
-./minishell
+$> ./minishell
 ```

@@ -39,11 +39,11 @@ Do not leak file descriptors!
 
 Compile:
 ```
-cc -Wall -Wextra -Werror microshell.c -o microshell
+$> clang -Wall -Wextra -Werror microshell.c -o microshell
 ```
 Try:
 ```
-./microshell /bin/ls "|" /bin/grep shell "|" /bin/wc -l ";" /bin/mkdir -p test ";" cd test ";" /bin/pwd ";" /bin/echo "I fly like paper get high like planes" ";" cd dir_that_doesnt_exist ";" cd too many arguments ";" ls
+$> ./microshell /bin/ls "|" /bin/grep shell "|" /bin/wc -l ";" /bin/mkdir -p test ";" cd test ";" /bin/pwd ";" /bin/echo "I fly like paper get high like planes" ";" cd dir_that_doesnt_exist ";" cd too many arguments ";" ls
 ```
 Output:
 ```

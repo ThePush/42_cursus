@@ -61,10 +61,10 @@ returned line = [Second lineEOF]
 
 ```shell
 # run
-cc -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c gnl_main.c -o get_next_line
+$> clang -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c gnl_main.c -o get_next_line
 
 # Then execute with any file that contains characters as argument
-./get_next_line text text1 text2 
+$> ./get_next_line text text1 text2 
 ```
 Output :
 ```

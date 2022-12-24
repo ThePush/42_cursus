@@ -58,17 +58,14 @@ As there is not always an automatic queueing of the signals (depending on OS), w
 
 ## Usage
 ```shell
-# run
-cd minitalk/ && make
+$> cd minitalk/ && make
 ```
 Then open two terminals, one for the server and one for the client
 ```shell
 # first terminal
-# execute
-./server
+$> ./server
 ```
 ```shell
 # second terminal
-# execute
-./client PID "your_message"
+$> ./client PID "your_message"
 ```

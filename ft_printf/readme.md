@@ -56,11 +56,10 @@ In the case of ```ft_printf()```, the type of argument can change, so we a have 
 
 ## Usage
 ```shell
-# run
-make
-
-# execute
-./ft_printf_test
+$> make
+```
+```
+$> ./ft_printf_test
 ```
 
 It will display a serie of tests and comparisons between ```ft_printf()``` and the real unix ```printf()``` function and its outputs.

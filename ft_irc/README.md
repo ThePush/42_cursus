@@ -21,18 +21,19 @@ Project made in collaboration with [egeorgio3000](https://github.com/egeorgio300
 ## Usage
 
 ```shell
-cd ft_irc/ && make
+$> cd ft_irc/ && make
 ```
 ```shell
-./ircserv <port> <password>
+$> ./ircserv <port> <password>
 ```
 
 EXAMPLE:
 ```shell
-./ircserv 6667 password
+$> ./ircserv 6667 password
 ```
 Then inside IRSSI, connect to the server:
 ```shell
+$> irssi
 /connect <ip> <port> <password> <nickname>
 ```
 
